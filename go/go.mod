@@ -1,4 +1,4 @@
-module github.com/fevse/grokking_algoritms/go
+module github.com/fevse/grokking_algorithms/go
 
 go 1.22.1
 
