@@ -1,4 +1,4 @@
-package selection_sort
+package chapter2
 
 func findSmallest(arr []int) int {
 	s := arr[0]

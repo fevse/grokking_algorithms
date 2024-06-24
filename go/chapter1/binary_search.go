@@ -1,4 +1,4 @@
-package binarysearch
+package chapter1
 
 func BinarySearch(data []int, item int) (int, int) {
 	var low, high, step int

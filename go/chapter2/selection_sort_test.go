@@ -1,4 +1,4 @@
-package selection_sort
+package chapter2
 
 import (
 	"testing"
