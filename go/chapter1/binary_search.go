@@ -1,6 +1,6 @@
 package binarysearch
 
-func binarySearch(data []int, item int) (int, int) {
+func BinarySearch(data []int, item int) (int, int) {
 	var low, high, step int
 	high = len(data)-1
 	for {

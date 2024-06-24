@@ -22,7 +22,7 @@ func TestBinarySearch(t *testing.T) {
 	for _, tc := range tests {
 		tc := tc
 		t.Run("test", func(t *testing.T) {
-			i, s := binarySearch(tc.data, tc.item)
+			i, s := BinarySearch(tc.data, tc.item)
 			require.Equal(t, tc.index, i)
 			require.Equal(t, s, tc.step)
 		})
