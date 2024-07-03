@@ -1,9 +1,6 @@
 package chapter4
 
-import "fmt"
-
 func Maxn(arr []int) int {
-	fmt.Println(arr)
 	if len(arr) == 1 {
 		return arr[0]
 	} else {
